@@ -1,31 +1,23 @@
-# Azure Log Collection and Analysis
+# Azure Storage Scanner
 
-`azure-log-analysis` is a script project designed to automate the collection and analysis of logs from various Azure services. It identifies specific patterns or anomalies and takes appropriate actions, such as alerting administrators or triggering further investigations.
+Azure Storage Scanner is a tool designed to identify and report publicly accessible objects in Azure Storage Accounts. It's an essential utility for maintaining the security and integrity of your Azure storage resources.
 
 ## Overview
 
-The project consists of three main steps:
-
-1. **Collect Logs:** Identify the Azure services to monitor, retrieve logs from those services, and store them for analysis.
-2. **Analyze Logs:** Process the logs to identify specific patterns or anomalies and compare them against known signatures or thresholds.
-3. **Take Action:** Alert administrators if suspicious activities are detected, store or archive logs, and optionally trigger further investigations or responses.
+This tool automates the process of scanning Azure Storage Accounts to find containers with public access permissions. It can be used as part of a security audit or continuous monitoring system.
 
 ## Flowchart
 
-![Azure Log Collection and Analysis Flowchart](images/flowchart.png)
+![Flowchart](images/flowchart.png)
 
 ## Installation
 
-Provide detailed instructions on how to install and configure the project.
+Provide instructions on how to install and configure the tool.
 
 ## Usage
 
-Provide examples and explanations on how to use the project, including any available options and parameters.
+Provide examples and explanations on how to use the tool.
 
 ## Contributing
 
-If you would like to contribute to this project, please follow the standard GitHub pull request process.
-
-## Contact
-
-For questions, issues, or feedback, please [create an issue](https://github.com/yourusername/azure-log-analysis/issues) in the GitHub repository.
+If you would like to contribute to this project, please follow the contributing guidelines.
